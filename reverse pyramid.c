@@ -2,10 +2,12 @@
 
 int main()
 {
-int i,j;
-for(i=1;i<=4;i++)
+int i,j,n;
+  prinf("enter  o of lines");
+  scanf("%d",n);
+for(i=1;i<=n;i++)
 {
-for(j=4;j>=i;j--)
+for(j=n;j>=i;j--)
 {printf("*");}
 printf("\n");
 }
